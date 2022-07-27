@@ -10,4 +10,7 @@ RUN dotnet build
 
 WORKDIR /dotnetapp/DotnetTemplate.Web
 
+RUN npm install
+RUN npm run build
+
 ENTRYPOINT ["dotnet", "run"]
