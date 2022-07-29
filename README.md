@@ -35,3 +35,4 @@ Whilst it is helpful to be able to experiment locally, getting the app running i
 
 1. Run `dotnet run` in the DotnetTemplate.Web folder. This will start the app.
 2. You can now see the website by going to [http://localhost:5000/](http://localhost:5000/). You should see something like the image below.
+
